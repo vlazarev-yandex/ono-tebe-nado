@@ -3,7 +3,7 @@
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
-    padding: 92px 49px 92px 51px;
+    padding: 92px 49px 90px 51px;
 
     position: relative;
 }
@@ -48,10 +48,6 @@
     padding-left: 1px;
     margin-left: 17px;
     margin-right: 15px;
-}
-
-.header-nav-li::marker {
-    font-size: 1.1em;
 }
 
 .header-li__active-element {
