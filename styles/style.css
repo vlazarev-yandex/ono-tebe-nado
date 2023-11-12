@@ -9,11 +9,3 @@
     flex-direction: column;
     gap: 180px;
 }
-
-.footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-    padding: 180px 50px 90px 50px;
-}
