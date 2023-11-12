@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./fonts/fonts.css" />
-    <link rel="stylesheet" href="./styles/font-styles.css" />
     <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/font-styles.css" />
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/header.css" />
     <link rel="stylesheet" href="./styles/jambotron.css" />
@@ -62,16 +62,16 @@
         <div class="jambotron-cover-overlay"></div>
 
         <h1 class="jambotron-title">
-            <p class="jambotron-extra-line-height">
+            <span class="jambotron-extra-line-height">
               <span>о</span><span class="extra-letter-spacing">но</span>
               <!-- Прикол про то, что у спанов не должно быть символом между собой подсказал наш СТО. Иначе я бы в жизни не нагуглил это :) -->
-            </p>
-            <p class="text-align__center jambotron-title__fixed-height-span">
+            </span>
+            <span class="text-align__center jambotron-title__fixed-height-span">
               <span>те</span><span class="extra-letter-spacing">бе</span>
-            </p>
-            <p class="text-align__right jambotron-title__fixed-height-span">
+            </span>
+            <span class="text-align__right jambotron-title__fixed-height-span">
               <span class="extra-letter-spacing">н</span><span>ад</span><span class="no-letter-spacing">о</span>
-            </p>
+            </span>
         </h1>
 
         <div class="jambotron-footer">
@@ -96,18 +96,20 @@
 
       <section class="lots" id="lots">
 
-        <div class="lots-header">
+        <h2 class="lots-header">
           лоты
-        </div>
+        </h2>
         <div class="lots-gallery">
           
           <div class="lot-card">
             <img src="./images/card-lot-01.jpg" alt="Какие-то люди с ножами" class="lot-card-background">
             <div class="lot-card-overlay lot-card-background"></div>
           
-            <a href="https://www.kinopoisk.ru/film/1320623/" target="_blank" class="lot-card-title">
-              Фильм режиссёра, который  бросил киношколу
-            </a>
+            <h3>
+              <a href="https://www.kinopoisk.ru/film/1320623/" target="_blank" class="lot-card-title">
+                Фильм режиссёра, который  бросил киношколу
+              </a>
+            </h3>
 
             <p>
               Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
@@ -116,11 +118,12 @@
           <div class="lot-card">
             <img src="./images/card-lot-02.jpg" alt="Лев на красной дверной ручке" class="lot-card-background">
             <div class="lot-card-overlay lot-card-background"></div>
-          
-            <a href="https://ru.wikipedia.org/wiki/Улисс_(роман)" target="_blank" class="lot-card-title">
-              Книга, где описан один скучный день из жизни рекламного агента
-            </a>
-
+            
+            <h3>
+              <a href="https://ru.wikipedia.org/wiki/Улисс_(роман)" target="_blank" class="lot-card-title">
+                Книга, где описан один скучный день из жизни рекламного агента
+              </a>
+            </h3>
             <p>
               Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?
             </p>
@@ -128,10 +131,12 @@
           <div class="lot-card">
             <img src="./images/card-lot-03.jpg" alt="Какие-то люди с ножами" class="lot-card-background">
             <div class="lot-card-overlay lot-card-background"></div>
-          
-            <a href="https://muzei-mira.com/kartini_russkih_hudojnikov/2028-chernyy-i-fioletovyy-kandinskiy-opisanie-kartiny.html" target="_blank" class="lot-card-title">
-              Картина, которую повторит даже 5-летний сын маминой подруги
-            </a>
+            
+            <h3>
+              <a href="https://muzei-mira.com/kartini_russkih_hudojnikov/2028-chernyy-i-fioletovyy-kandinskiy-opisanie-kartiny.html" target="_blank" class="lot-card-title">
+                Картина, которую повторит даже 5-летний сын маминой подруги
+              </a>
+            </h3>
 
             <p>
               Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков… Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?
@@ -148,7 +153,7 @@
 
         <div class="about-logo-background">
           
-          <img src="./images/logo-white.svg" class="about-logo">
+          <img src="./images/logo-white.svg" class="about-logo" alt="Белый логотип на чёрном фоне">
         </div>
 
         <div class="about-column">
@@ -202,15 +207,15 @@
 
       <div class="footer-socials-logo">
         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
-          <img src="./images/yt.svg" class="footer-socials-logo-size">
+          <img src="./images/yt.svg" class="footer-socials-logo-size" alt="Логотип YouTube.com, ссылка на социальные сети проекта">
         </a>
         
         <a href="https://vk.com/durov" target="_blank">
-          <img src="./images/vk.svg" class="footer-socials-logo-size">
+          <img src="./images/vk.svg" class="footer-socials-logo-size" alt="Логотип vk.com, ссылка на социальные сети проекта">
         </a>
 
         <a href="https://ru.pinterest.com/pin/27584616459886037/" target="_blank">
-          <img src="./images/pinterest.svg" class="footer-socials-logo-size">
+          <img src="./images/pinterest.svg" class="footer-socials-logo-size" alt="Логотип Pinterest.com, ссылка на социальные сети проекта">
         </a>
       </div>
 
