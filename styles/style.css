@@ -10,10 +10,6 @@
     gap: 180px;
 }
 
-.about {
-    height: 487px;
-}
-
 .footer {
     display: flex;
     flex-direction: row;
