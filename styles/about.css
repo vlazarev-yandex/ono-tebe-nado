@@ -1,58 +1,58 @@
 .about {
-    height: 487px;
-    padding: 100px 0 1px 505px;
-    position: relative;
+  height: 487px;
+  padding: 100px 0 1px 505px;
+  position: relative;
 
-    color: red;
+  color: red;
 }
 
 .about-logo-background {
-    position: absolute;
-    left: 145px;
-    top: 0;
-    border-radius: 50%;
-    width: 240px;
-    height: 240px; 
-    background-color: #000;
+  position: absolute;
+  left: 145px;
+  top: 0;
+  border-radius: 50%;
+  width: 240px;
+  height: 240px;
+  background-color: #000;
 
-    display: flex;
+  display: flex;
 }
 
 .about-logo {
-    width: 148px;
-    height: 114px;
-    margin: auto;
+  width: 148px;
+  height: 114px;
+  margin: auto;
 }
 
 .about-column {
-    height: 388px;
-    width: 885px;
+  height: 388px;
+  width: 885px;
 
-    display: flex;
-    flex-direction: column;
-    
-    gap: 100px;
+  display: flex;
+  flex-direction: column;
+
+  gap: 100px;
 }
 
 .about-title {
-    color: #000;
-    font-family: Raleway;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-transform: uppercase;
+  color: #000;
+  font-family: Raleway;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
 }
 
 .about-text {
-    color: #000;
-    font-family: Raleway;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+  color: #000;
+  font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
 }
