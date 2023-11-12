@@ -10,62 +10,8 @@
     gap: 180px;
 }
 
-.lots {
-    height: 579px;
-    flex-shrink: 0;
-    
-}
-
-.lots {
-    display: flex;
-    flex-direction: column;
-    background-color: azure;
-    gap: 8px;
-    margin: 0;
-    padding: 0 50px;
-} 
-
-.lots-header {
-    padding-left: 40px;
-    font-family: Raleway;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-transform: uppercase;
-}
-
-.lots-gallery {
-    display: flex;
-    flex-direction: row;
-    gap: 25px; 
-}
-
-.lot-card {
-    width: 430px;
-    height: 450px;
-    padding: 50px 40px;
-    position: relative;
-}
-
-.lot-card-background {
-    position: absolute;
-    left: 0;
-    top: 0;
-}
-
-.lots-footer {
-    padding-left: 40px;
-    font-family: Raleway;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
 .about {
     height: 487px;
-    background-color: azure;
 }
 
 .footer {

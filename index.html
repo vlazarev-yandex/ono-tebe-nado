@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./styles/global.css" />
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/header.css" />
-    <link rel="stylesheet" href="./styles/jambotron.css" />
+    <link rel="stylesheet" href="./styles/jambotron.css" /><link rel="stylesheet" href="./styles/lots.css" />
     <link rel="icon" href="./images/logo-black.svg" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
   </head>
@@ -18,9 +18,15 @@
     <header class="header">
       <nav>
         <ul class = "header-nav-ul">
-          <li class="header-nav-li header-li__active-element">главная</li>
-          <li class="header-nav-li underline-li">посмотреть лоты</li>
-          <li class="header-nav-li underline-li">об аукционе</li>
+          <li class="header-nav-li header-li__active-element">
+            <a href="#">главная</a>
+          </li>
+          <li class="header-nav-li underline-li">
+            <a href="#lots">посмотреть лоты</a>
+          </li>
+          <li class="header-nav-li underline-li">
+            <a href="#about">об аукционе</a>
+          </li>
         </ul>
       </nav>
 
@@ -28,8 +34,12 @@
     
       <address>
         <ul class="header-address-ul">
-          <li class="header-address-li">+9 999 555 5555</li>
-          <li class="header-address-li">info@sobaka.ge</li>
+          <li class="header-address-li">
+            <a href="tel:+99995555555">+9 999 555 5555</a>
+          </li>
+          <li class="header-address-li">
+            <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+          </li>
           <li class="header-address-li no-border-bottom">наб. Принсенграхт 263-265, Амстердам</li>
         </ul>
       </address>
@@ -75,29 +85,57 @@
 
       </section>
 
-      <section class="lots border">
+      <section class="lots" id="lots">
 
-        <div class="lots-header border">
+        <div class="lots-header">
           лоты
         </div>
-        <div class="lots-gallery border">
-          <div class="lot-card border">
+        <div class="lots-gallery">
+          
+          <div class="lot-card">
             <img src="./images/card-lot-01.jpg" alt="Какие-то люди с ножами" class="lot-card-background">
+            <div class="lot-card-overlay lot-card-background"></div>
+          
+            <a href="#" class="lot-card-title">
+              Фильм режиссёра, который  бросил киношколу
+            </a>
+
+            <p>
+              Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
+            </p>
           </div>
-          <div class="lot-card border">
-            <img src="./images/card-lot-02.jpg" alt="Какие-то люди с ножами" class="lot-card-background">
+          <div class="lot-card">
+            <img src="./images/card-lot-02.jpg" alt="Лев на красной дверной ручке" class="lot-card-background">
+            <div class="lot-card-overlay lot-card-background"></div>
+          
+            <a href="#" class="lot-card-title">
+              Книга, где описан один скучный день из жизни рекламного агента
+            </a>
+
+            <p>
+              Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?
+            </p>
           </div>
-          <div class="lot-card border">
+          <div class="lot-card">
             <img src="./images/card-lot-03.jpg" alt="Какие-то люди с ножами" class="lot-card-background">
+            <div class="lot-card-overlay lot-card-background"></div>
+          
+            <a href="#" class="lot-card-title">
+              Картина, которую повторит даже 5-летний сын маминой подруги
+            </a>
+
+            <p>
+              Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков… Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?
+            </p>
           </div>
         </div>
-        <a href="#" class="lots-footer border">
-          посмотреть больше
+        <a href="#lots" class="lots-footer">
+          <span class="border-bottom">посмотреть больше</span>
         </a>
         
       </section>
       
-      <section class="about border">
+      <section class="about border" id="about">
       </section>
     </main>
 
