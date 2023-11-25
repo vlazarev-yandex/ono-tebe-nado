@@ -1,5 +1,4 @@
 .about {
-  height: 487px;
   padding: 100px 0 1px 505px;
   position: relative;
 
@@ -25,7 +24,6 @@
 }
 
 .about-column {
-  height: 388px;
   width: 885px;
 
   display: flex;
