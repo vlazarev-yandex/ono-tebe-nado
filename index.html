@@ -4,7 +4,221 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
+    <link rel="stylesheet" href="./fonts/fonts.css" />
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/font-styles.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/jambotron.css" />
+    <link rel="stylesheet" href="./styles/lots.css" />
+    <link rel="stylesheet" href="./styles/about.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+    <link rel="icon" href="./images/logo-black.svg" />
+    <title>Оно тебе надо — аукцион вещей, в которые никто не верил.</title>
   </head>
-  <body></body>
+  <body>
+    
+    <header class="header">
+      <nav>
+        <ul class = "header-nav-ul">
+          <li class="header-nav-li header-li__active-element">
+            <a href="#">главная</a>
+          </li>
+          <li class="header-nav-li underline-li">
+            <a href="#lots">посмотреть лоты</a>
+          </li>
+          <li class="header-nav-li underline-li">
+            <a href="#about">об аукционе</a>
+          </li>
+        </ul>
+      </nav>
+
+      <a href="#">
+        <img src="./images/logo-black.svg" alt="логотип Оно тебе надо" class = "header-logo logo_size">
+      </a>
+    
+      <address>
+        <ul class="address-ul">
+          <li class="header-address-li">
+            <a href="tel:+99995555555">+9 999 555 5555</a>
+          </li>
+          <li class="header-address-li">
+            <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+          </li>
+          <li class="header-address-li no-border-bottom">
+            <a target="_blank" href="https://www.google.com/maps/place/Дом+Анны+Франк/@52.3752022,4.883794,20.38z/data=!4m6!3m5!1s0x47c609c5213e1149:0xd49a5d653e635b0a!8m2!3d52.3752182!4d4.8839765!16zL20vMDJzNWhk?entry=ttu">
+              наб. Принсенграхт 263-265, Амстердам
+            </a>
+          </li>
+        </ul>
+      </address>
+
+    </header>
+
+    <main class="main">
+      <section class="jambotron">
+        
+        <div class="jambotron-cover-image"></div>
+        <div class="jambotron-cover-overlay"></div>
+
+        <h1 class="jambotron-title">
+            <span class="jambotron-extra-line-height">
+              <span>о</span><span class="extra-letter-spacing">но</span>
+              <!-- Прикол про то, что у спанов не должно быть символом между собой подсказал наш СТО. Иначе я бы в жизни не нагуглил это :) -->
+            </span>
+            <span class="text-align__center jambotron-title__fixed-height-span">
+              <span>те</span><span class="extra-letter-spacing">бе</span>
+            </span>
+            <span class="text-align__right jambotron-title__fixed-height-span">
+              <span class="extra-letter-spacing">н</span><span>ад</span><span class="no-letter-spacing">о</span>
+            </span>
+        </h1>
+
+        <div class="jambotron-footer">
+
+          <div class="jambotron-subtitle">
+            <span>аукцион</span>
+            <span>вещей,</span>
+            <span>в</span>
+            <span>которые</span>
+            <span>никто</span>
+            <span>не</span>
+            <span>верил</span>
+            <!-- Знаю, что здесь отступы между словами не совсем совпадают с макетом, но их каждый нужно было подбирать вручную -->
+            <!-- Я решил обойтись space-betweem как чем-то похожим по логике и сходил бы в жизни к дизайнеру договориться -->
+          </div>
+          <div class="jambotron-button">
+            <div class="jambotron-button-text">сделать ставку</div>
+          </div>
+        </div>
+
+      </section>
+
+      <section class="lots" id="lots">
+
+        <h2 class="lots-header">
+          лоты
+        </h2>
+        <div class="lots-gallery">
+          
+          <div class="lot-card">
+            <img src="./images/card-lot-01.jpg" alt="Какие-то люди с ножами" class="lot-card-background">
+            <div class="lot-card-overlay lot-card-background"></div>
+          
+            <h3>
+              <a href="https://www.kinopoisk.ru/film/1320623/" target="_blank" class="lot-card-title">
+                Фильм режиссёра, который  бросил киношколу
+              </a>
+            </h3>
+
+            <p>
+              Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
+            </p>
+          </div>
+          <div class="lot-card">
+            <img src="./images/card-lot-02.jpg" alt="Лев на красной дверной ручке" class="lot-card-background">
+            <div class="lot-card-overlay lot-card-background"></div>
+            
+            <h3>
+              <a href="https://ru.wikipedia.org/wiki/Улисс_(роман)" target="_blank" class="lot-card-title">
+                Книга, где описан один скучный день из жизни рекламного агента
+              </a>
+            </h3>
+            <p>
+              Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?
+            </p>
+          </div>
+          <div class="lot-card">
+            <img src="./images/card-lot-03.jpg" alt="Какие-то люди с ножами" class="lot-card-background">
+            <div class="lot-card-overlay lot-card-background"></div>
+            
+            <h3>
+              <a href="https://muzei-mira.com/kartini_russkih_hudojnikov/2028-chernyy-i-fioletovyy-kandinskiy-opisanie-kartiny.html" target="_blank" class="lot-card-title">
+                Картина, которую повторит даже 5-летний сын маминой подруги
+              </a>
+            </h3>
+
+            <p>
+              Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков… Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?
+            </p>
+          </div>
+        </div>
+        <a href="#lots" class="lots-footer">
+          <span class="border-bottom">посмотреть больше</span>
+        </a>
+        
+      </section>
+      
+      <section class="about" id="about">
+
+        <div class="about-logo-background">
+          
+          <img src="./images/logo-white.svg" class="about-logo" alt="Белый логотип на чёрном фоне">
+        </div>
+
+        <div class="about-column">
+
+          <h2 class="about-title">
+            Об аукционе
+          </h2>
+
+          <div class="about-text">
+            <p>
+              Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?
+            </p>
+            <p>
+              Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные критиками. Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми. 
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <address>
+        <ul class="address-ul">
+          <li class="header-address-li">
+            <a href="tel:+99995555555">+9 999 555 5555</a>
+          </li>
+          <li class="header-address-li">
+            <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+          </li>
+          <li class="header-address-li no-border-bottom">
+            <a target="_blank" href="https://www.google.com/maps/place/Дом+Анны+Франк/@52.3752022,4.883794,20.38z/data=!4m6!3m5!1s0x47c609c5213e1149:0xd49a5d653e635b0a!8m2!3d52.3752182!4d4.8839765!16zL20vMDJzNWhk?entry=ttu">
+              наб. Принсенграхт 263-265, Амстердам
+            </a>
+          </li>
+        </ul>
+      </address>
+
+      <nav>
+        <ul class = "footer-nav-ul">
+          <li class="no-border-bottom">
+            <a href="#">главная</a>
+          </li>
+          <li class="footer-nav-li">
+            <a href="#lots">посмотреть лоты</a>
+          </li>
+          <li class="footer-nav-li">
+            <a href="#about">об аукционе</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="footer-socials-logo">
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+          <img src="./images/yt.svg" class="footer-socials-logo-size" alt="Логотип YouTube.com, ссылка на социальные сети проекта">
+        </a>
+        
+        <a href="https://vk.com/durov" target="_blank">
+          <img src="./images/vk.svg" class="footer-socials-logo-size" alt="Логотип vk.com, ссылка на социальные сети проекта">
+        </a>
+
+        <a href="https://ru.pinterest.com/pin/27584616459886037/" target="_blank">
+          <img src="./images/pinterest.svg" class="footer-socials-logo-size" alt="Логотип Pinterest.com, ссылка на социальные сети проекта">
+        </a>
+      </div>
+
+    </footer>
+  </body>
 </html>
